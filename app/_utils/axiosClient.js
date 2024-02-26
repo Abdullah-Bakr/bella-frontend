@@ -1,7 +1,7 @@
 const { default: axios } = require("axios");
 
 const apiKey = process.env.NEXT_PUBLIC_REST_API_KEY;
-const apiUrl = "https://bella-backend.onrender.com//api";
+const apiUrl = "https://bella-backend.onrender.com/api";
 
 const axiosClient = axios.create({
   baseURL: apiUrl,
