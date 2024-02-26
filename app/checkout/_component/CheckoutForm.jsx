@@ -7,7 +7,7 @@ import { useState } from "react";
 import { useCart } from "../../_context/CartContext";
 import { useUser } from "@clerk/nextjs";
 import CartApis from "../../_utils/CartApis";
-import OrderApis from "../../_utils/orderApis";
+import OrderApis from "../../_utils/OrderApis";
 
 const CheckoutForm = ({ amount }) => {
   const { cart, setCart } = useCart();
